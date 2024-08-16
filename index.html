@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="https://static.vecteezy.com/system/resources/thumbnails/004/908/013/small/coding-logo-design-template-free-vector.jpg"
+                    alt="Company Logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Get in touch</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="bio">
+
+        <div class="bio-text">
+            <h1>Nirmal Kumar</h1>
+            <p>
+                Hello! <span id="element"></span>
+                and am skilled in HTML , CSS , javaScript , React.js , Tailwind CSS , java , SQL , Github etc.
+
+            </p>
+        </div>
+        <div class="bio-container">
+            <img src="https://avatars.githubusercontent.com/u/161622261?v=4"
+                alt="Your Name" class="bio-image">
+
+        </div>
+    </section>
+    <section class="projects">
+        <h2>My Projects</h2>
+        <div id="projects-container" class="projects-container">
+            <!-- Projects will be injected here by JavaScript -->
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-info">
+            <p>If you have any questions or just want to get in touch, feel free to reach out!</p>
+            <ul>
+                <li>
+                    <a href="nirmalgangwar7454@gmail.com">Email:</a>
+                </li>
+                <li><a href="https://github.com/nirmaltech">Github:</a></li>
+                <li><a href="https://www.linkedin.com/in/nirmal-gangwar-840272239">Linkedin:</a></li>
+                <li><a href="tel:+917454923964">Phone</a>
+
+                </li>
+            </ul>
+        </div>
+        <form id="contact-form" class="contact-form">
+            <h3>Send a Message</h3>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit">Send</button>
+            <p id="form-message"></p>
+        </form>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
